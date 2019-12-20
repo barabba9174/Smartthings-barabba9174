@@ -2,23 +2,40 @@
  *  dim-a-device.app.groovy
  *  Dim A Device
  *
- *  Author: todd@wackford.net
  *  Date: 2013-11-12
  */
 /**
- *  App Name:   Dim A Sevice
+ *  App Name:   Dim A Device
  *
  *  Author: 	Barbara Schiavinato
  *
  *  Date: 	2019-12-20
  *  Version: 	0.1
  *  
+ *  Use this program with a virtual dimmer as the master for best results.
+ *
+ *  This app lets the user select from a list of dimmers to act as a triggering
+ *  master for other dimmers or regular switches. Regular switches come on
+ *  anytime the master dimmer is on or dimmer level is set to more than 0%.
+ *  of the master dimmer.
+ *
+******************************************************************************
+ *                                Changes
+ ******************************************************************************
+ *
+ *  
+ *
+ ******************************************************************************
+                
+  Update from  todd@wackford.net "Dim With Me"
+ *
+ ******************************************************************************
  */
 
 
 // Automatically generated. Make future change here.
 definition(
-    name: "Dim A Sevice",
+    name: "Dim A Device",
     namespace: "barabba9174",
     description: "Follows the dimmer level of another dimmer",
     category: "My Apps",
