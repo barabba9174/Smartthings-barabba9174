@@ -39,6 +39,7 @@ definition(
     namespace: "barabba9174",
     description: "Follows the dimmer level of another dimmer",
     category: "My Apps",
+    author: "Barabba9174",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
     iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience%402x.png"
 )
